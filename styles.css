@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(21, 163, 182);
+    background-color: rgb(44, 154, 218);
     background-image: url("img/pattern.png");
     background-size: 400px;
     height: 100px;
@@ -10,8 +10,11 @@ main {
 }
 
 .logo {
-    width: 130px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+    left: 5px;
+    bottom: 30px;
 }
 
 h1 {
@@ -29,8 +32,8 @@ span {
     font-size: 30px;
 }
 
-.text-2 {
-    color: rgb(25, 132, 165);
+.text {
+    color: rgb(28, 189, 238);
     margin-top: 10px;
 }
 
@@ -43,10 +46,17 @@ span {
 table {
     border-collapse: collapse;
     background-color: rgb(255, 255, 255);
+    width: 100%;
 }   
+
+.text-2 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
 
 thead {
     background-color: rgb(59, 184, 223);
+    
 }
 
 .aqua-raw {
@@ -54,5 +64,29 @@ thead {
 }
 
 .white-raw {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+td {
+    width: 25%;
+    font-size: 18px;
+}
+
+.adv-text {
+    color: gray;
+}
+
+.adv-text-2 {
+    background-image: url("../html-css-booleaner/img/monitor.jpg");
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: left;
+}
+
+.adv-text-3 {
+    background-image: url("../html-css-booleaner/img/graph.jpg");
+    width: 300px;
+    height: 200px;
+    color: white;
 }
