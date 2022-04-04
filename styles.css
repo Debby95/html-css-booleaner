@@ -1,0 +1,41 @@
+header {
+    background-color: rgb(21, 163, 182);
+    background-image: url("img/pattern.png");
+    background-size: 400px;
+    height: 100px;
+}
+
+main {
+    font-size: 20px;
+}
+
+.logo {
+    width: 130px;
+    height: 120px;
+}
+
+h1 {
+    font-size: 75px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+mark {
+    background-color: rgb(219, 255, 14);
+}
+
+span {
+    color: grey;
+    font-size: 30px;
+}
+
+.text-2 {
+    color: rgb(0, 225, 255);
+    margin-top: 10px;
+}
+
+.data {
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
