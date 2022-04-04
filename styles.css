@@ -25,12 +25,12 @@ mark {
 }
 
 span {
-    color: grey;
+    color: gray;
     font-size: 30px;
 }
 
 .text-2 {
-    color: rgb(0, 225, 255);
+    color: rgb(25, 132, 165);
     margin-top: 10px;
 }
 
@@ -38,4 +38,21 @@ span {
     color: grey;
     font-size: 20px;
     margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+}   
+
+thead {
+    background-color: rgb(59, 184, 223);
+}
+
+.aqua-raw {
+    background-color: rgb(132, 231, 235);
+}
+
+.white-raw {
+    background-color: white;
 }
