@@ -43,6 +43,11 @@ span {
     margin-bottom: 30px;
 }
 
+.image {
+    width: 800px;
+    height: 600px;
+}
+
 table {
     border-collapse: collapse;
     background-color: rgb(255, 255, 255);
@@ -90,3 +95,4 @@ td {
     height: 200px;
     color: white;
 }
+
